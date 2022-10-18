@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+  <link rel="stylesheet" href="./static/css/material.min.css" />
+  <link rel="stylesheet" href="./static/css/index.css" />
+  <title>银行身份登陆入口</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="demo-card-wide mdl-card mdl-shadow--8dp">
+      <div class="mdl-card__title">
+        <h2 class="mdl-card__title-text"></h2>
+      </div>
+      <div class="mdl-card__supporting-text">
+        本程序为计算机系统安全实验四设计，模拟银行的简易数据库管理系统</br>
+        <div class="floatRight">
+          By Ziyang Guo
+        </div>
+      </div>
+      <div class="mdl-card__actions mdl-card--border">
+        <a class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" id="userLogin">
+          登陆
+        </a>
+      </div>
+    </div>
+    <dialog class="mdl-dialog">
+      <h4 class="mdl-dialog__title">登陆</h4>
+      <div class="mdl-dialog__content">
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="text" id="username">
+          <label class="mdl-textfield__label" for="username">username</label>
+        </div>
+        <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+          <input class="mdl-textfield__input" type="password" id="password">
+          <label class="mdl-textfield__label" for="password">password</label>
+        </div>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button type="button" id="confirm_dialog" class="mdl-button">确定</button>
+        <button type="button" id="close_dialog" class="mdl-button">返回</button>
+      </div>
+    </dialog>
+
+    <dialog class="mdl-dialog" id="common_error_dialog_noreturn">
+      <div class="mdl-dialog__content">
+        <p id='common_error_msg_noreturn'>
+        </p>
+      </div>
+      <div class="mdl-dialog__actions">
+        <button type="button" id="common_error_noreturn" class="mdl-button">确定</button>
+      </div>
+    </dialog>
+
+  </div>
+</body>
+
+<script src="./static/js/material.min.js"></script>
+<script src="./static/js/index.js"></script>
+
+</html>

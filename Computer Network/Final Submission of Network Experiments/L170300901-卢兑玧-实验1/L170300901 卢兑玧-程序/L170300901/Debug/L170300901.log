@@ -1,0 +1,13 @@
+﻿  lab1.cpp
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(84,8): warning C4101: 'dwThreadID' :참조되지 않은 지역 변수입니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(181,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(204,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(208,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(213,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(219,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(222,19): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(238,31): warning C4018: '>': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(266,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(271,17): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\NOH TAEYUN\source\repos\L170300901\L170300901\lab1.cpp(149,14): warning C4101: 'clientAddr' :참조되지 않은 지역 변수입니다.
+  L170300901.vcxproj -> C:\Users\NOH TAEYUN\source\repos\L170300901\Debug\L170300901.exe

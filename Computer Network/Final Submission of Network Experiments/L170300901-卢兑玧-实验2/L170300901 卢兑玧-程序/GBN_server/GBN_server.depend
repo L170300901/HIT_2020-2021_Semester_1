@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1541700954 source:C:\Users\NOH TAEYUN\Desktop\2020년 왕루\실험2\lab2-L170300901-卢兑玧\lab2-L170300901-卢兑玧\GBN_server\main.cpp
+	<stdlib.h>
+	<time.h>
+	<WinSock2.h>
+	<fstream>
+
